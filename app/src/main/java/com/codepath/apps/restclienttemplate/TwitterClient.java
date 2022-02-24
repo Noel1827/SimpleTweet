@@ -25,10 +25,10 @@ import com.github.scribejava.core.builder.api.BaseApi;
 public class TwitterClient extends OAuthBaseClient {
 	public static final BaseApi REST_API_INSTANCE = TwitterApi.instance();
 	public static final String REST_URL = "https://api.twitter.com/1.1"; 	// MAYBE ERROR
-	// public static final String REST_CONSUMER_KEY = BuildConfig.CONSUMER_KEY;
-	//public static final String REST_CONSUMER_SECRET = BuildConfig.CONSUMER_SECRET; // Change this inside apikey.properties
- 	public static final String REST_CONSUMER_KEY = "rnLAG96Bfasu9IDlBRUgQmRc9";
-	public static final String REST_CONSUMER_SECRET ="ViRtQwywqP3A0FkPrnk37le9fDlI8gjkWDEHDRWvqoHkg4k4Zk";
+	public static final String REST_CONSUMER_KEY = BuildConfig.CONSUMER_KEY;
+	public static final String REST_CONSUMER_SECRET = BuildConfig.CONSUMER_SECRET; // Change this inside apikey.properties
+ 	// public static final String REST_CONSUMER_KEY = "EQEppx2b4hWadUZdAxn3JcOv9";
+	// public static final String REST_CONSUMER_SECRET ="cPwPxOxPIv8YM7FXqJ0gciGcy6mluCUcggj5HvKPuR4FSASU4P";
 
 	// Landing page to indicate the OAuth flow worked in case Chrome for Android 25+ blocks navigation back to the app.
 	public static final String FALLBACK_URL = "https://codepath.github.io/android-rest-client-template/success.html";
