@@ -54,6 +54,7 @@ public class TwitterClient extends OAuthBaseClient {
 		params.put("count",25);
 		params.put("since_id",1);
 		client.get(apiUrl, params, handler);
+		// testing
 	}
 
 	public void getNextPageOfTweets(JsonHttpResponseHandler handler, long maxId) {
